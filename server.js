@@ -1,3 +1,5 @@
+// Interact with user information on this snowy April day >:(
+
 var express = require('express');
 var app = express();
 var fs = require("fs");
