@@ -18,7 +18,7 @@ var user = {
        "id": 4
     }
  }
- 
+ // Hopefully this is the end of snowy April Days :)
  app.post('/addUser', function (req, res) {
     // First read existing users.
     fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
